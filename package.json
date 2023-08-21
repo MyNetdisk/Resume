@@ -1,0 +1,21 @@
+{
+  "name": "Resume",
+  "version": "1.0.0",
+  "description": "Resume",
+  "main": "index.js",
+  "repository": "git@github.com:MyNetdisk/Resume.git",
+  "author": "DESKTOP-T63084Q\\MyNetdisk <peregrinator@yeah.net>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
